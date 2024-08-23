@@ -100,7 +100,7 @@ body {
     background-color: var(--bg-yellow)
 }
 
-nav {
+ul {
     height: 30px;
     margin: 0 auto;
     padding: 20px;
