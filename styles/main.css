@@ -165,11 +165,12 @@ ul {
 }
 
 .hero {
-  padding-bottom: 30px;
-  height: auto;
+  /* padding-bottom: 30px; */
+  height: 80vh;
   background-color: var(--blue);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -211,12 +212,45 @@ ul {
   font-size: 18px;
 }
 
+
+.social-icons {
+  background: white;
+  color: var(--blue);
+  padding-left: 40px;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  /* border: 2px solid white; */
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.fa-brands {
+  /* border: 2px solid red; */
+  padding: 5px;
+  color: var(--blue);
+  font-size: 40px;
+  transition: font-size .3s;
+}
+
+.fa-brands:hover {
+  color: rgb(237, 225, 132);
+  font-size: 46px;
+}
+
+.center-text {
+  text-align: center;
+  font-size: 14px;
+  /* border: 1px solid white; */
+}
+
 .clients-btn {
   color: var(--blue);
   background-color: var(--bg-yellow);
   font-family: 'Calistoga', 'Times New Roman', Times, serif;
   font-size: 20px;
-  border-radius: 10px 10px;
+  /* border-radius: 10px 10px; */
   padding: 10px;
   transition: background-color .5s;
     
