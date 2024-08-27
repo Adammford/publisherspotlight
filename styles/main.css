@@ -94,7 +94,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   box-sizing: 0;
-  background-color: var(--bg-yellow)
+  background-color: var(--bg-yellow);
 }
 
 #navbar {
@@ -108,7 +108,7 @@ body {
   align-self: stretch;
 }
 
-ul {
+.navlist-header {
   height: 30px;
   margin: 0 auto;
   padding: 10px;
@@ -212,7 +212,6 @@ ul {
   font-size: 18px;
 }
 
-
 .social-icons {
   background: white;
   color: var(--blue);
@@ -261,6 +260,7 @@ ul {
 }
 
 .hero-picture {
+  margin-top: 40px;
   width: 600px;
   /* border: 1px solid white; */
   box-shadow: 5px 5px 10px black;
@@ -405,4 +405,43 @@ ul {
   -webkit-box-orient: vertical;
   /* truncate to 4 lines */
   -webkit-line-clamp: 9;
+}
+
+footer {
+  background-color: var(--blue);
+  color: white;
+  overflow: hidden;
+}
+
+.links {
+  margin: 0 auto;
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navlist-foot {
+  flex-grow: 1;
+}
+
+.navlist-f {
+  list-style: none;
+  text-decoration: none;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.social-f {
+  color: white;
+  font-size: 20px;
+}
+
+.social-f:hover {
+  font-size: 24px;
 }
